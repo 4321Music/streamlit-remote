@@ -44,7 +44,8 @@ col1, col2, col3 = st.columns([1,2,1])
 col1.markdown(" # 432 1 Music ")
 col1.markdown(" #### Interactive App! ")
 
-st.slider("Slider", 10, 100, 10, 1)
+st.slider("Slider 1", 10, 100, 10, 1)
+st.slider("Slider 2", 10, 100, 10, 1)
 
 def change_photo_state():
     st.session_state["photo"]="done"
@@ -70,3 +71,6 @@ if st.session_state["photo"] == "done":
             st.image(camera_photo)
         else:
             st.image(uploaded_photo)
+
+st.image("Monkey BG.jpg", caption="Monkey and Orange", width=680 )
+st.video("Jogging.mp4")
