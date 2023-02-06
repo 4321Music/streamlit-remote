@@ -48,6 +48,7 @@ st.slider("Slider 1", 10, 100, 10, 1)
 st.slider("Slider 2", 10, 100, 10, 1)
 st.slider("Slider 3", 10, 100, 10, 1)
 st.slider("Slider 4", 10, 100, 10, 1)
+st.slider("Slider 5", 10, 100, 10, 1)
 
 def change_photo_state():
     st.session_state["photo"]="done"
